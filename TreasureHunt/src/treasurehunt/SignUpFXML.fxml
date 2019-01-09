@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="610.0" prefWidth="669.0" style="-fx-background-color: #14163A;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="treasurehunt.SignUpFXMLController">
+   <children>
+      <ImageView fitHeight="187.0" fitWidth="350.0" layoutX="216.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Desktop/java%20project/SignUpLogo%20(1).jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="62.0" fitWidth="65.0" layoutX="191.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Desktop/java%20project/UserLogo%20-%20Copy.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="82.0" fitWidth="85.0" layoutX="174.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Desktop/java%20project/PassLogo.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="SignUp" layoutX="297.0" layoutY="406.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="62.0" style="-fx-background-color: #009999;" text="Sign Up" textFill="#000000fe">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="312.0" layoutY="365.0" text="Label" />
+      <ImageView fitHeight="122.0" fitWidth="558.0" layoutX="62.0" layoutY="474.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/Desktop/java%20project/treasuretext.jpg" />
+         </image>
+      </ImageView>
+      <TextField layoutX="262.0" layoutY="228.0" prefHeight="25.0" prefWidth="209.0" promptText="User Name" style="-: #14163A;">
+         <effect>
+            <Lighting light="$null">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+            </Lighting>
+         </effect>
+      </TextField>
+      <PasswordField layoutX="262.0" layoutY="281.0" prefHeight="25.0" prefWidth="209.0" promptText="Password" style="-: #14163A;">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+            </Lighting>
+         </effect>
+      </PasswordField>
+   </children>
+</AnchorPane>
